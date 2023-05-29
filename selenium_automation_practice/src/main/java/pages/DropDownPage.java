@@ -31,6 +31,4 @@ public class DropDownPage {
     private Select findDropDownElement(){
         return new Select(driver.findElement(dropDown));
     }
-
-
 }
